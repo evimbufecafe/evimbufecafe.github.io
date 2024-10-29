@@ -1,0 +1,135 @@
+body, html {
+    /* background: #f5d9d5;  */
+    background: #FF6500;
+    font-family: "Nunito", sans-serif;
+    color: #0B192C;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+
+}
+div {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 0.5rem;
+    
+}
+
+
+.blurb h2 {
+   color: #0B192C;
+   font-weight: 100;
+   font-size: 2.5rem;
+   margin-bottom: 0;
+}
+
+.blurb p {
+    color: #0B192C;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.white{
+    background-color: rgb(247, 168, 103);
+}
+
+.white-text{
+    background-color: rgb(223, 137, 17);
+    border-radius: 5%;
+  
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+   /* color: rgb(255, 128, 0); */
+   color: #0B192C;
+    
+}
+#mainNavbar .nav-link:hover {
+    /* color: rgb(255, 128, 0); */
+    color: white;
+     
+ }
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 2.2rem !important;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+.navbar{
+    background-color:#FF6500  ;
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    /*background: rgb(96, 76, 96); */
+    background: #1E3E62;
+    transition: background 500ms;
+}
+#mainNavbar .logo-scrolled {
+    color: white;
+    transition: color 500ms;
+}
+.navigation-bar-scrolled .nav-item .nav-link {
+    color: #FF6500 !important; 
+}
+.navigation-bar-scrolled .nav-item .nav-link:hover {
+    color: white !important;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+    
+}
+@media (min-width: 600px){
+    img{
+        border-radius: 25%;
+        padding: 3rem;
+    }
+    #icon-about, #icon-contact{
+        padding: 0;
+    }
+}
+ul{
+    padding-inline: 0;
+    
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit;
+}
+a:hover {
+    color: white; /* blue colors for links too */
+    text-decoration: inherit;
+}
+
